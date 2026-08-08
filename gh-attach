@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Thin gh extension wrapper around the published npm CLI.
+# Requires Node.js + network for first npx fetch (cached after).
+set -euo pipefail
+if ! command -v npx >/dev/null 2>&1; then
+  echo "gh-attach requires Node.js (npx) on PATH" >&2
+  exit 1
+fi
+exec npx --yes @uinaf/attach-cli "$@"
