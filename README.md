@@ -1,3 +1,5 @@
+![gh-attach — GitHub CLI extension for uinaf/attach.](https://uinaf.dev/og/banner/gh-attach.png)
+
 # gh-attach
 
 GitHub CLI extension for [uinaf/attach](https://github.com/uinaf/attach).
